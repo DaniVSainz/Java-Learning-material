@@ -1,0 +1,16 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		int value = 7;
+		
+		int[] values;
+		
+		values = new int[5,4,5,45];
+		
+		System.out.println(values);
+		
+	}
+
+}
