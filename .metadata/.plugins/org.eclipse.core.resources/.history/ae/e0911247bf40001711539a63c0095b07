@@ -1,0 +1,10 @@
+
+public class App {
+	public static void main(String[] args) {
+	String doublex = "axxbb";
+	int secChar = doublex.indexOf("x") + 1;
+	System.out.println(secChar);
+	System.out.println(doublex.indexOf("x"));
+
+	}
+}

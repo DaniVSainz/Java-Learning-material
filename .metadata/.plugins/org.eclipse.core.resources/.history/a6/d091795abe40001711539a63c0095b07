@@ -1,0 +1,8 @@
+
+public class App {
+	public static void main(String[] args) {
+	String doublex = "axxbb";
+	System.out.println(doublex.indexOf("x"));
+
+	}
+}
