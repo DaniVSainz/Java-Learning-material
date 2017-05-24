@@ -1,0 +1,11 @@
+class Machine {
+	
+}
+public class app {
+
+	public static void main(String[] args) {
+		Machine machine1 = new Machine();
+		
+	}
+
+}
