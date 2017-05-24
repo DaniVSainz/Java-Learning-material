@@ -1,0 +1,21 @@
+class Thing{
+	public String name;
+	public static String description;
+//	Static variables belong to the class and there's only one copy
+//	Check the description below
+//	They are class variables
+}
+public class app {
+	public static void main(String[] args) {
+		Thing thing1 = new Thing();
+		Thing thing2 = new Thing();
+		
+		Thing.description = "I am a thing";
+		
+		thing1.name = "Bob";
+		thing2.name = "Sue";
+		
+		System.out.println(thing1.name);
+		System.out.println(thing2.name);
+	}
+}

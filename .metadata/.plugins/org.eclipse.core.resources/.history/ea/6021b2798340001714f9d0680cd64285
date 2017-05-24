@@ -1,0 +1,46 @@
+class Thing{
+	public final static int LUCKY_NUMBER = 7;
+//	 final means constant and it needs a value after you create it you cannot reassing
+//	its final
+	public String name;
+	public static String description;
+//	Static variables belong to the class and there's only one copy
+//	Check the description below
+//	They are class variables
+	
+	public void showName(){
+//		instance method can access static data.
+		System.out.println(name);
+//		2
+		System.out.println(description + ": " + name);
+	}
+	
+	public static void showInfo(){
+		System.out.println(description);
+//		Static methods can't output instance variables like name.
+//		System.out.println(name); wont work
+	}
+//	static methods can access static data
+}
+public class app {
+	public static void main(String[] args) {
+		Thing thing1 = new Thing();
+		Thing thing2 = new Thing();
+		
+		
+		Thing.description = "I am a thing";
+		System.out.println(Thing.description);
+		Thing.showInfo();
+
+		thing1.name = "Bob";
+		thing2.name = "Sue";
+		
+		System.out.println(thing1.name);
+		System.out.println(thing2.name);
+		thing1.showName();
+		
+		System.out.println(Math.PI);
+//		PI is constant meaning it's unchangeable constant values are all upper case
+		System.out.println(Thing.LUCKY_NUMBER);
+	}
+}
