@@ -1,0 +1,10 @@
+
+public class Plant {
+//	This is bad practice, you usually shouldnt make instance variables public
+//	You want to make them private and hide them from the world and access via methods
+	public String name;
+	
+	public Plant(){
+		name = "Thornbush";
+	}
+}

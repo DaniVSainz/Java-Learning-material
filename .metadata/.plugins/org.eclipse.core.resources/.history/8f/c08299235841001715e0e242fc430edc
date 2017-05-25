@@ -1,0 +1,8 @@
+
+public class Oak extends Plant {
+	
+	public Oak(){
+//		type = "tree" wont work type is private
+		size = "large"
+	}
+}
