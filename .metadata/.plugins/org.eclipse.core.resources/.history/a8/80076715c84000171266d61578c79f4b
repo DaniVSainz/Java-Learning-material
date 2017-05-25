@@ -1,0 +1,11 @@
+public class app {
+
+	public static void main(String[] args) {
+		String info = " ";
+		info += "Something";
+		info += " ";
+		info += "More somethings";
+		System.out.println(info);
+	}
+
+}
