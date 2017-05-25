@@ -1,0 +1,11 @@
+package casting;
+
+public class App {
+
+	public static void main(String[] args) {
+		byte byteValue = 55;
+		short 
+		int intValue = 888l
+	}
+
+}
