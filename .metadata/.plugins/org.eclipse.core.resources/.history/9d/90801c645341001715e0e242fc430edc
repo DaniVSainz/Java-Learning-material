@@ -1,0 +1,7 @@
+
+public class Person {
+	private String name = "Bob";
+	public void greet(){
+		System.out.println("Hello there");
+	}
+}

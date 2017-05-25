@@ -1,0 +1,8 @@
+
+public class Machine implements Info {
+	private int id = 7;
+	public void startMachine(){
+		System.out.println("Machine started");
+	}
+	
+}

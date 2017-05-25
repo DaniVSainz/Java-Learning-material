@@ -1,0 +1,15 @@
+// WHen we implement a interfance it forces us to have all the methods from the interface in this class.
+public class Machine implements Info {
+	private int id = 7;
+	
+	public void startMachine(){
+		System.out.println("Machine started");
+	}
+	
+	@Override
+	public void showInfo() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
