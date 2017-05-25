@@ -1,0 +1,4 @@
+//extends mean car is a child of Machine class, //inherits from machine or is a machine
+public class Car extends Machine  {
+	
+}
