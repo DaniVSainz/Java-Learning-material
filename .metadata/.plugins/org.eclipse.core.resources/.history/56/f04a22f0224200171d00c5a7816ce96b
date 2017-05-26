@@ -1,0 +1,10 @@
+
+public class App {
+
+	public static void main(String[] args) {
+		String myName = "DANIEL";
+		System.out.println(myName.toLowerCase());
+		System.out.println(myName.charAt(1));
+	}
+
+}
