@@ -62,8 +62,6 @@ public class App {
 		String text1 = "hey";
 		String text2 = "hey";
 		
-//		This does equal two and they point at the same object.Just use == to compara
-//		if they point at the same object not value
 		System.out.println(text1==text2);
 	}
 	

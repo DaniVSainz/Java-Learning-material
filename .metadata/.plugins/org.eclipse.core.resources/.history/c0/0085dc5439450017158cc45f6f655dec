@@ -51,20 +51,6 @@ public class App {
 		Double value2 = 7.2;
 		
 		System.out.println(value1 == value2);
-		
-		Integer number1 = 6;
-		Integer number2 = 6;
-		
-//		== checks if they're pointing at the same object not if same value always
-//		double for example creates new objects but integer didnt
-		System.out.println(number1==number2);
-		
-		String text1 = "hey";
-		String text2 = "hey";
-		
-//		This does equal two and they point at the same object.Just use == to compara
-//		if they point at the same object not value
-		System.out.println(text1==text2);
 	}
 	
 	
