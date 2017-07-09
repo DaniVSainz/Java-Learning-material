@@ -1,6 +1,0 @@
-// to use things from ocean package i need to import
-public class app {
-	public static void main(String[] args) {
-
-	}
-}

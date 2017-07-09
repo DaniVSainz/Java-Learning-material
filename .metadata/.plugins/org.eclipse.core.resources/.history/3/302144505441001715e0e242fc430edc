@@ -1,4 +1,0 @@
-// in interfaces yo ujust define methods that you want the classes to implement them to have
-public interface Info {
-	public void showInfo();
-}

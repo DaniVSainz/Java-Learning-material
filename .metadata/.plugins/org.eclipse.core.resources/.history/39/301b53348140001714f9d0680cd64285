@@ -1,9 +1,0 @@
-class Thing{
-	public String name;
-	public static String description;
-}
-public class app {
-	public static void main(String[] args) {
-
-	}
-}

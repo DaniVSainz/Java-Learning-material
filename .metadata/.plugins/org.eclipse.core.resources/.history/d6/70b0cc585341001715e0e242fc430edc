@@ -1,6 +1,0 @@
-
-public class Machine {
-	public void startMachine(){
-		System.out.println("Machine started");
-	}
-}
