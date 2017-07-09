@@ -1447,3 +1447,6 @@ Chain 2:
 
 !ENTRY org.eclipse.jface.text 2 0 2017-07-09 15:36:51.940
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2017-07-09 16:32:50.652
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/content.jar
